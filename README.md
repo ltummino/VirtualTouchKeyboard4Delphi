@@ -9,6 +9,10 @@ VirtualTouchKeyboard4Delphi was developed and tested on Delphi 13, Delphi XE2 an
 * [Installation in Delphi](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Delphi)
 * [Installation in Lazarus FPC](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Lazarus-FPC)
 
+## Screenshot
+<img width="950" height="669" alt="SimpleMemo" src="https://github.com/user-attachments/assets/cd485deb-e874-4a05-9397-28613f99a855" />
+This screenshot shows the SimpleMemo demo for Delphi running in the Spanish version of Windows 11.
+
 ## Links
 * [Developer Forums](https://www.briskbard.com/forum)
 
