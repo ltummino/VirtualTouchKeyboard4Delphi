@@ -5,6 +5,10 @@ VirtualTouchKeyboard4Delphi is a replacement of the TTouchKeyboard component usi
 
 VirtualTouchKeyboard4Delphi was developed and tested on Delphi 13, Delphi XE2 and Lazarus 4.4/FPC 3.2.2. It includes VCL, FireMonkey (FMX) and Lazarus components.
 
+## Installation instructions
+* [Installation in Delphi](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Delphi)
+* [Installation in Lazarus FPC](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Lazarus-FPC)
+
 ## Links
 * [Developer Forums](https://www.briskbard.com/forum)
 
@@ -20,10 +24,6 @@ You can also support this project with Patreon.
 You can also support this project with Liberapay.
 
 <a href="https://liberapay.com/salvadordf/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
-
-## Installation instructions
-* [Installation in Delphi](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Delphi)
-* [Installation in Lazarus FPC](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Lazarus-FPC)
 
 ## Related projects 
 * [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 
