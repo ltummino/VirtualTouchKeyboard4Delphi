@@ -2,6 +2,8 @@ unit VirtualTouchKeyboard4Delphi_register;
 
 {$R res\tvirtualtouchkeyboard.dcr}
 
+{$I ..\source\VirtualTouchKeyboard.inc}
+
 interface
 
 procedure Register;
@@ -9,7 +11,12 @@ procedure Register;
 implementation
 
 uses
-  System.Classes, uVirtualTouchKeyboard;
+  {$IFDEF DELPHI16_UP}
+  System.Classes,
+  {$ELSE}
+  Classes,
+  {$ENDIF}
+  uVirtualTouchKeyboard;
 
 procedure Register;
 begin

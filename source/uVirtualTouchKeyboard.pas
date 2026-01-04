@@ -1,6 +1,8 @@
 unit uVirtualTouchKeyboard;
 
 {$IFDEF FPC}{$MODE Delphi}{$ENDIF}
+                                       
+{$I VirtualTouchKeyboard.inc}
 
 // This unit uses undocumented Windows interfaces!
 
@@ -22,13 +24,13 @@ unit uVirtualTouchKeyboard;
 interface
 
 uses
- {$IFDEF FPC}
- Windows, Classes, SysUtils, SHFolder, ActiveX, ShellAPI, jwatlhelp32, LResources;
- {$ELSE}
- Winapi.Windows, System.Classes, System.SysUtils, Winapi.SHFolder,
- Winapi.ActiveX, Winapi.ShellAPI, Winapi.TlHelp32;
- {$ENDIF}
-
+  {$IFDEF DELPHI16_UP}
+    Winapi.Windows, System.Classes, System.SysUtils, Winapi.SHFolder,
+    Winapi.ActiveX, Winapi.ShellAPI;
+  {$ELSE}
+    Windows, Classes, SysUtils, {$IFDEF FPC}LResources,{$ENDIF} SHFolder,
+    ActiveX, ShellAPI;
+  {$ENDIF}
 
 const                                                                           
   CLSID_UIHostNoLaunch        : TGUID = '{4CE576FA-83DC-4F88-951C-9D0782B4E376}';
@@ -40,7 +42,7 @@ const
 
   TABTIP_PROCNAME = 'TabTip.exe';
 
-  {$IFNDEF FPC}
+  {$IFDEF DELPHI16_UP}
   {$IF NOT DECLARED(pidWin32)}
   pidWin32 = 0;
   {$IFEND}
@@ -76,7 +78,7 @@ type
   /// the undocumented ITipInvocation, IInputHostManagerBroker and
   /// IImmersiveShellBroker interfaces.
   /// </summary>
-  {$IFNDEF FPC}[ComponentPlatformsAttribute(pfidWindows)]{$ENDIF}
+  {$IFDEF DELPHI16_UP}[ComponentPlatformsAttribute(pfidWindows)]{$ENDIF}
   TVirtualTouchKeyboard = class(TComponent)
     protected
       function GetTabTipPath : string;
@@ -115,7 +117,7 @@ type
       /// Returns true if TabTip.exe is running.
       /// </summary>
       property Executing  : boolean  read GetExecuting;
-  end;      
+  end;
 
 {$IFDEF FPC}
 procedure Register;
@@ -123,6 +125,17 @@ procedure Register;
 
 
 implementation
+
+uses
+  {$IFDEF DELPHI16_UP}
+    Winapi.TlHelp32;
+  {$ELSE}
+    {$IFDEF FPC}
+      jwatlhelp32;
+    {$ELSE}
+      TlHelp32;
+    {$ENDIF}
+  {$ENDIF}
 
 
 function TVirtualTouchKeyboard.GetTabTipPath : string;
@@ -157,7 +170,7 @@ function TVirtualTouchKeyboard.GetVisible : boolean;
 var
   TempRect : TRect;
 begin
-  Result := GetIhmLocation(TempRect) and (TempRect.Width > 0) and (TempRect.Height > 0);
+  Result := GetIhmLocation(TempRect) and (TempRect.Right > TempRect.Left) and (TempRect.Bottom > TempRect.Top);
 end;
 
 function TVirtualTouchKeyboard.GetExecuting : boolean;
@@ -252,20 +265,15 @@ begin
        else
         if ExecuteTabTip then
           begin
-            {$IFDEF FPC}
-            sleep(500);
-            Toggle;
+            {$IFDEF DELPHI17_UP}
+              TThread.ForceQueue(nil,
+                procedure
+                begin
+                  Toggle;
+                end, 500);
             {$ELSE}
-              {$IFDEF VER230}
-                sleep(500);
-                Toggle;
-              {$ELSE}
-                TThread.ForceQueue(nil,
-                  procedure
-                  begin
-                    Toggle;
-                  end, 500);
-              {$ENDIF}
+              sleep(500);
+              Toggle;
             {$ENDIF}
           end;
     end;
