@@ -21,6 +21,10 @@ You can also support this project with Liberapay.
 
 <a href="https://liberapay.com/salvadordf/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
 
+## Installation instructions
+* [Installation in Delphi](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Delphi)
+* [Installation in Lazarus FPC](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Lazarus-FPC)
+
 ## Related projects 
 * [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 
 * [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
