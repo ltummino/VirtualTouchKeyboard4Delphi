@@ -1,0 +1,61 @@
+object MainForm: TMainForm
+  Left = 294
+  Height = 231
+  Top = 250
+  Width = 505
+  BorderIcons = [biSystemMenu, biMinimize]
+  BorderStyle = bsSingle
+  Caption = 'Simple Memo'
+  ClientHeight = 231
+  ClientWidth = 505
+  LCLVersion = '4.4.0.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 40
+    Top = 0
+    Width = 505
+    Align = alTop
+    ClientHeight = 40
+    ClientWidth = 505
+    TabOrder = 0
+    object ShowBtn: TButton
+      Left = 16
+      Height = 25
+      Top = 6
+      Width = 150
+      Caption = 'Show virtual keyboard'
+      TabOrder = 0
+      OnClick = ShowBtnClick
+    end
+    object HideBtn: TButton
+      Left = 336
+      Height = 25
+      Top = 6
+      Width = 150
+      Caption = 'Hide virtual keyboard'
+      TabOrder = 1
+      OnClick = HideBtnClick
+    end
+  end
+  object Memo1: TMemo
+    Left = 0
+    Height = 191
+    Top = 40
+    Width = 505
+    Align = alClient
+    Lines.Strings = (
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod '
+      'tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim '
+      'veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea '
+      'commodo consequat. Duis aute irure dolor in reprehenderit in voluptate '
+      'velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat '
+      'cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id '
+      'est laborum.'
+    )
+    ScrollBars = ssBoth
+    TabOrder = 1
+  end
+  object VirtualTouchKeyboard1: TVirtualTouchKeyboard
+    Left = 232
+  end
+end

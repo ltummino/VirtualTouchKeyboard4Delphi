@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <PathDelim Value="\"/>
+    <Name Value="VirtualTouchKeyboard4Delphi"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="Salvador Díaz Fau"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <PathDelim Value="\"/>
+      <SearchPaths>
+        <IncludeFiles Value="res"/>
+        <OtherUnitFiles Value="..\source"/>
+        <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="VirtualTouchKeyboard4Delphi is an implementation of the virtual touch keyboard available in Windows."/>
+    <License Value="MIT"/>
+    <Version Major="1"/>
+    <Files>
+      <Item>
+        <Filename Value="..\source\uVirtualTouchKeyboard.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="uVirtualTouchKeyboard"/>
+      </Item>
+      <Item>
+        <Filename Value="res\tvirtualtouchkeyboard.lrs"/>
+        <Type Value="LRS"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="LCLBase"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
