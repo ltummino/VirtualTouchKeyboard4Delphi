@@ -1,5 +1,5 @@
 # VirtualTouchKeyboard4Delphi [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Use%20VirtualTouchKeyboard4Delphi%20to%20enable%20the%20virtual%20touch%20keyboard%20available%20in%20Windows&url=https://github.com/salvadordf/VirtualTouchKeyboard4Delphi&via=briskbard&hashtags=VirtualTouchKeyboard4Delphi,delphi,lazarus,fpc)
-VirtualTouchKeyboard4Delphi is an implementation of the virtual touch keyboard available in Windows.
+VirtualTouchKeyboard4Delphi is a [Delphi](https://www.embarcadero.com/products/delphi/starter) and [Lazarus/FPC](https://www.lazarus-ide.org/) component that implements the virtual touch keyboard available in Windows.
 
 VirtualTouchKeyboard4Delphi is a replacement of the TTouchKeyboard component using the ITipInvocation, IInputHostManagerBroker and IImmersiveShellBroker interfaces which are available in Windows 10 and 11.
 
@@ -48,6 +48,7 @@ You can also support this project with Liberapay.
 * [Delphi Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/delphi)
 * [Start Programming using Object Pascal](https://code.sd/startprog/StartProgUsingPascal.pdf)
 * [Free Pascal and Lazarus Programming Textbook](https://sourceforge.net/p/lazarus-wiki-projects/code/ci/master/tree/FPC_Lazarus_Textbook/)
+* [LAZARUS FREE PASCAL Développement rapide](https://lazaruscomponents.com/2025/11/08/livrel-lazarus-free-pascad/)
 
 ## Attribution
 * [FatCow Farm-Fresh Web Icons](https://github.com/gammasoft/fatcow)
